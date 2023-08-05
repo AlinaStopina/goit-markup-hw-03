@@ -24,6 +24,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-grey);
+  margin-bottom: 8px;
 }
 
 .section-two-paragraf {
@@ -294,4 +295,12 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.list-section-two {
+  gap: 24px;
+}
+
+.element-one-section-two {
+  width: calc((100% - 72px) / 4);
 }
