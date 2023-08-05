@@ -301,6 +301,6 @@ img {
   gap: 24px;
 }
 
-.element-one-section-two {
-  width: calc((100% - 72px) / 4);
+.element-section-two {
+  flex-basis: calc((100% - 72px) / 4));
 }
