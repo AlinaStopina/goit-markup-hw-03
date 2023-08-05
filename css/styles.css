@@ -69,6 +69,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .link {
@@ -92,14 +93,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-grey);
+  padding: 24px 0;
 }
 
 .adress {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .contact-link {
@@ -257,4 +263,9 @@ img {
 
 .container {
   width: 1158px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
