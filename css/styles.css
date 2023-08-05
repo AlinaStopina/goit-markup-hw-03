@@ -251,6 +251,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner {
+.container-header {
   display: flex;
+}
+
+.container {
+  width: 1158px;
 }
