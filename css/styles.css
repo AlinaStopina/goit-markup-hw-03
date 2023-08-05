@@ -160,6 +160,7 @@ body {
 
 .footer {
   background-color: var(--dark-grey);
+  padding: 100px 0;
 }
 
 .logo-activ-white {
@@ -170,6 +171,7 @@ body {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .logo-link-portfolio {
@@ -347,4 +349,17 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
