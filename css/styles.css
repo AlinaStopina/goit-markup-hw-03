@@ -43,6 +43,7 @@ body {
   color: var(--dark-grey);
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .section-four {
@@ -302,5 +303,17 @@ img {
 }
 
 .element-section-two {
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.section-three {
+  padding-bottom: 120px;
+}
+
+.list-section-three {
+  gap: 24px;
+}
+
+.element-section-three {
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
