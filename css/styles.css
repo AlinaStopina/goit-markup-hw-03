@@ -239,16 +239,21 @@ body {
   color: var(--blue-logo);
   background-color: var(--light);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .button-portfolio:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .title-portfolio {
@@ -395,20 +400,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-}
-
-.main-button {
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
-
-.main-button:hover {
-  border: 1px solid transparent;
-}
-
-.main-button:focus {
-  border: 1px solid transparent;
 }
 
 .list-main-portfolio-two {
