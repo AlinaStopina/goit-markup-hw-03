@@ -182,6 +182,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--blue-logo);
+  margin-right: 76px;
 }
 
 .logo-activ-portfolio {
@@ -206,6 +207,8 @@ body {
 
 .adress-portfolio {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .kontakt-link-portfolio {
@@ -362,4 +365,21 @@ img {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.header-portfolio {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header-portfolio {
+  display: flex;
+}
+
+.nav-portfolio {
+  display: flex;
+  align-items: center;
+}
+
+.element-header-portfolio {
+  padding: 24px 0;
 }
