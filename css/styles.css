@@ -25,14 +25,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-grey);
   margin-bottom: 8px;
+  margin: 0;
 }
 
 .section-two-paragraf {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 .section-three-title {
@@ -44,6 +46,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin: 0;
 }
 
 .section-four {
@@ -99,15 +102,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-grey);
   padding: 24px 0;
+  display: inline-block;
 }
 
 .adress {
+  margin-left: auto;
   font-style: normal;
   display: flex;
   gap: 40px;
 }
 
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   gap: 40px;
@@ -118,6 +125,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .section-one {
@@ -132,6 +141,10 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-bottom: 48px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -148,6 +161,9 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover {
@@ -196,6 +212,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-grey);
   padding: 24px 0;
+  display: inline-block;
 }
 
 .nav-link-portfolio:hover {
@@ -210,6 +227,7 @@ body {
   font-style: normal;
   display: flex;
   gap: 40px;
+  margin-left: auto;
 }
 
 .kontakt-link-portfolio {
@@ -217,6 +235,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .lontakt-link-portfolio:hover {
@@ -264,6 +284,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-grey);
   margin-bottom: 8px;
+  margin: 0;
 }
 
 .paragraf-portfolio {
@@ -271,6 +292,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  margin: 0;
 }
 
 img {
@@ -304,7 +326,7 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: 0;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -350,6 +372,7 @@ img {
   color: var(--dark-grey);
   margin-bottom: 8px;
   text-align: center;
+  margin: 0;
 }
 
 .section-four-paragraf {
@@ -421,4 +444,11 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.footer-paragraf-portfolio {
+  line-height: 1.5;
+  color: var(--light);
+  letter-spacing: 0.02em;
+  max-width: 264px;
 }
